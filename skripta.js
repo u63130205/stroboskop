@@ -59,9 +59,9 @@ window.addEventListener('load', function() {
 			var barva = barve[i];
 			vrednosti.push(barva.innerHTML);
 		}
-		
-		minCas = 1000;
-		maxCas = 1000;
+	
+		minCas = document.querySelector("#min").value;
+		maxCas = document.querySelector("#max").value;
 		spremeniBarvo(0);
 		
 		var start = document.querySelector("#start");
